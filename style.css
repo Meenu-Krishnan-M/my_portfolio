@@ -1,0 +1,286 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color:#add8e6;
+}
+
+.hero {
+    background: url('') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 5rem 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: blue;
+}
+
+.navbar {
+    margin-bottom: 2rem;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#about img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.card {
+    margin-bottom: 1.5rem;
+}
+
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+
+#education h5, #internships h5, #certificates h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#education p, #internships p, #certificates p {
+    font-size: 1rem;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+form .form-control {
+    border-radius: 0.25rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1.25rem;
+    }
+}
+/* Skills Section */
+#skills {
+    background-color: #f8f9fa;
+}
+
+#skills h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#skills h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: #343a40;
+    font-weight: 600;
+}
+
+#skills ul {
+    padding-left: 0;
+}
+
+#skills li {
+    margin-bottom: 1.5rem;
+}
+
+#skills .badge {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+#skills .progress {
+    height: 1rem;
+    border-radius: 10px;
+}
+
+#skills .progress-bar {
+    font-size: 0.85rem;
+    line-height: 1rem;
+}
+
+
+#education {
+    background-color: #f8f9fa;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+#education h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #343a40;
+}
+
+.education-item {
+    border-left: 4px solid #007bff; /* Adds a colored border to the left of each item */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education-item:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow on hover */
+}
+
+.education-item h5 {
+    color: #007bff;
+    margin-bottom: 0.5rem;
+}
+
+.education-item p {
+    margin-bottom: 0.3rem;
+    color: #495057;
+}
+
+#education .media-body p strong {
+    color: #343a40;
+}
+/* styles.css */
+.view-more-btn {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Button padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    font-size: 16px; /* Font size */
+}
+
+.view-more-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+.card-title {
+    font-weight: bold;
+}
+/* Footer social icons */
+.social-icons a {
+    color: #333; /* Icon color */
+    font-size: 24px; /* Icon size */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+
+
+
+/* Style for the Certificates Section */
+#certificates {
+    background-color: #f8f9fa; /* Light background color */
+}
+
+#certificates h2 {
+    font-size: 2rem; /* Adjust size as needed */
+}
+
+#certificates h5 {
+    font-size: 1.25rem; /* Adjust size as needed */
+}
+
+#certificates p {
+    font-size: 1rem; /* Adjust size as needed */
+}
+
+/* Style for the Modal Header */
+.modal-header {
+    background-color: #007bff; /* Bootstrap primary color or any color you prefer */
+    color: white; /* Text color in the modal header */
+}
+
+.modal-header .modal-title {
+    font-weight: bold; /* Bold title in the modal header */
+}
+
+/* Style for the Modal Body */
+.modal-body {
+    font-size: 1rem; /* Font size for modal content */
+}
+
+/* Style for the Modal Footer */
+.modal-footer {
+    border-top: none; /* Remove top border from footer */
+}
+
+/* Style for the Close Button */
+.close {
+    color: white; /* Color for the close button in the modal */
+    text-shadow: none; /* Remove text shadow for the close button */
+}
+
+.close:hover {
+    color: #ffcccc; /* Hover color for the close button */
+}
+
+/* Hover effect for certificate titles */
+#certificates h5 a {
+    color: #007bff; /* Color for certificate titles */
+    text-decoration: underline; /* Underline for links */
+}
+
+#certificates h5 a:hover {
+    color: #0056b3; /* Darker color on hover */
+    text-decoration: none; /* Remove underline on hover */
+}
+
+#certificates .col-md-6 {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#certificates .col-md-6:hover {
+    transform: scale(1.03); /* Slightly zoom in */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow */
+}
+#contact{
+    background-color: white;
+}
+
+
+h4 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
